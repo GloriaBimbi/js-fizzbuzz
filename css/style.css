@@ -30,3 +30,32 @@ a {
 
 body {
 } */
+main {
+  background-color: #083b4c;
+  text-align: center;
+}
+
+main h1 {
+  padding: 30px;
+  font-size: 100px;
+  color: white;
+}
+
+#card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+h3 {
+  text-align: center;
+  line-height: 130px;
+}
+
+.card {
+  border-radius: 0;
+  width: 130px;
+  aspect-ratio: 1;
+}
